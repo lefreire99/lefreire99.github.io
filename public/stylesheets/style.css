@@ -64,3 +64,34 @@ nav ul{
     margin-top: 6%;
     color: #373B41;
 }
+
+#seccioncontactenos{
+    display: grid;
+    grid-template-areas: "area1 area2 area3 area4"
+                         "area5 area6 area7 area8"
+                         "area9 area10 area11 area12"
+                         "area9 area10 area11 area12"
+                         "area9 area10 area11 area12"
+                         "area9 area10 area11 area12"
+                         "area9 area10 area11 area12";
+}
+
+.titulo{
+    grid-area: area1;
+}
+
+.datos{
+    grid-area: area5;
+}
+
+.formulario{
+    grid-area: area9;
+}
+
+.ubicacion{
+    grid-area: area7;
+}
+
+.mapa{
+    grid-area: area11;
+}
