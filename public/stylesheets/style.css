@@ -96,3 +96,37 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.btt{
+    width: 100%;
+    max-width: 30%;
+}
