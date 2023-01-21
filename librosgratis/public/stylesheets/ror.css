@@ -10,3 +10,59 @@ body {
     margin: 0;
     padding: 0;
 }
+
+main{
+    width: 80%;
+}
+
+#webdevelopment{
+    display: grid;
+    grid-template-areas: "area1 area1"
+                        "area2 area3";
+}
+
+.titulo{
+    grid-area: area1;
+}
+
+.img{
+    grid-area: area2;
+    width: 522px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgimg{
+    width: 170px;
+    height: 208px;
+}
+
+.informacion{
+    grid-area: area3;
+}
+
+aside{
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    margin-right: 2px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: brown;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.imagen{
+    width: 75px;
+    height: 100px;
+    margin: 0 auto; 
+    background-color: white;
+    padding: 3%;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}

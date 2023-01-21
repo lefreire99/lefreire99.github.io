@@ -18,4 +18,69 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
+    height: 450px;
 }
+
+.head{
+    display: grid;
+    grid-template-areas: "area1 area1"
+                         "area2 area3";
+    overflow: hidden;
+}
+
+.titulo{
+    grid-area: area1;
+    padding-top: 200px;
+}
+
+.parrafo{
+    grid-area: area2;
+    width: 674.5px;
+}
+
+.parrafoimagenes{
+    grid-area: area3;
+    width: 674.5px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagenesreferencia{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parrafoimagenes{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+/*nav ul{
+    display: flex;
+    justify-content: space-around;
+}*/
+
+.imagen{
+    width: 150px;
+    height: 188px;
+}
+
+.imagenparrafo{
+    width: 75px;
+    height: 108px;
+    margin: 0 auto; 
+    background-color: white;
+    padding: 3%;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+}
+
+
