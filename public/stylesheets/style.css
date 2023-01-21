@@ -69,10 +69,6 @@ nav ul{
     display: grid;
     grid-template-areas: "area1 area2 area3 area4"
                          "area5 area6 area7 area8"
-                         "area9 area10 area11 area12"
-                         "area9 area10 area11 area12"
-                         "area9 area10 area11 area12"
-                         "area9 area10 area11 area12"
                          "area9 area10 area11 area12";
 }
 
@@ -94,4 +90,9 @@ nav ul{
 
 .mapa{
     grid-area: area11;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
 }
