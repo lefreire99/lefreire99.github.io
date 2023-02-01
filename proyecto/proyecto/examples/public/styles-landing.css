@@ -1,0 +1,23 @@
+.page-header-image{
+    background-color: #FF670A;;
+    z-index: 0 !important;
+}
+
+.content-center{
+    text-align: center;
+    color: #fff;
+}
+
+.card-container{
+    color: black;
+    border-width: 2px;
+    border-color: black;
+}
+
+.card-container:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border-color: #fff;
+    border-width: 2px;
+}
