@@ -2,3 +2,12 @@
     background-color: #FF670A;;
     z-index: 0 !important;
 }
+
+.imagen{
+    width: 1920px;
+    height: 400px;
+    max-width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: center;
+}
