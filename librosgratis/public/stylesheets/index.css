@@ -28,14 +28,24 @@ header {
     overflow: hidden;
 }
 
+.opacity{
+    background-color: rgb(255, 255, 255, 0.7);
+    padding-bottom: 2%;
+}
+
 .titulo{
     grid-area: area1;
     padding-top: 200px;
+    padding-left: 5%;
+    font-weight: revert;
 }
 
 .parrafo{
     grid-area: area2;
     width: 674.5px;
+    padding-left: 10%;
+    font-size: larger;
+    text-align: justify;
 }
 
 .parrafoimagenes{
@@ -83,4 +93,11 @@ nav ul{
     box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
 }
 
+.espaciado{
+    padding-left: 5%;
+}
+
+.negrita{
+    font-weight: bold;
+}
 
